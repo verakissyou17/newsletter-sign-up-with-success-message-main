@@ -32,14 +32,14 @@ form.addEventListener('submit', (e) => {
 
 dismissMessage.addEventListener('click', () => {
     sectionSuccess.classList.remove('success');
-    main.style.display = 'block';
+    main.style.display = 'flex';
     small.innerHTML = '';
     small.classList.remove('error');
     emailInput.classList.remove('error');
     emailInput.value = '';
     dismissMessage.removeEventListener('click', () => {
         sectionSuccess.classList.remove('success');
-        main.style.display = 'block';
+        main.style.display = 'flex';
         small.innerHTML = '';
         small.classList.remove('error');
         emailInput.classList.remove('error');
