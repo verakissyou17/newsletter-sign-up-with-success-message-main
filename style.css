@@ -66,6 +66,7 @@ small,
     align-items: flex-start;
     justify-content: center;
     font-family: inherit;
+    color: var(--Dark-Slate-Grey);
     padding: 3em;
 }
 
